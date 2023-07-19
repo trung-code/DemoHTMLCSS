@@ -1,0 +1,97 @@
+.header .container .item {
+  max-width: 1900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.header .navbar a {
+  max-width: 1380px;
+  padding-left: 65px;
+  color: rgb(54, 50, 30);
+  text-decoration: none;
+}
+
+.header .navbar a:focus {
+  text-decoration: underline red;
+}
+
+.header .slider {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.intro {
+  margin-bottom: 50px;
+}
+
+.intro h1 {
+  text-align: center;
+}
+
+.intro img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.activities .title {
+  text-align: center;
+}
+
+.activities .line {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.activities {
+  margin-top: 100px;
+}
+
+.activities .list .item {
+  float: left;
+  width: calc(100% / 4);
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+
+.activities .list .item .content {
+  padding: 15px;
+}
+
+.activities .list .item .content img {
+  width: 50%;
+}
+
+.activities .list .item .content h1 {
+  font-size: 15px;
+}
+
+.activities .list .item .content p {
+  font-size: 15px;
+}
+
+footer {
+  height: 150px;
+  margin-top: 270px;
+  background-color: #f61212;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .logo {
+  width: 50%;
+}
+
+footer img {
+  padding-left: 100px;
+  width: 18%;
+}
+
+footer .adreess p {
+  color: #fff;
+  text-align: left;
+}
